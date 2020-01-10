@@ -1,0 +1,22 @@
+g:: Line 1 ::
+g:: Line 2, continued text ::
+	g:: Line 3, L1B1 ::
+	b:: Line 4, L1B2 this line should fail due to have too many characters thanks largely to this long description ::
+b:: Line 5, should fail thanks to too many sub B ::
+	g:: Line 6, L5B1 ::
+	g:: Line 7, L5B2 ::
+	g:: Line 8, L5B3 ::
+
+g:: Line 9 ::
+	g:: Line 10, L9B1 ::
+		g:: Line 11, L9B1L1 ::
+			b:: Line 12, L9B1L1B1 this line should fail due to have too many characters thanks largely to this long description ::
+			g:: Line 13, L9B1L1B2 ::
+				g:: Line 14. L9B1L1B2L1 ::
+					g:: Line 15. L9B1L1B2L1B1 ::
+	g:: Line 16, L9B2 ::
+		g:: Line 17, L9B2L2 ::
+		g:: Line 18, L9B2L3 ::
+		g:: Line 19, L9B2L4 ::
+			g:: Line 20, L9BL9B2L4B1 ::
+			g:: Line 21, L9BL9B2L4B2 ::
